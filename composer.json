@@ -1,0 +1,19 @@
+{
+    "name": "judev/package-composer",
+    "description": "my first package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Judev\\PackageComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julien Coudert",
+            "email": "julien.coduert34@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
